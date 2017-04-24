@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>iO.Foundation</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Pacifico|Playfair+Display" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- title-playfair display bold -->
+	<!-- paragraph- montserrat regular -->
+</head>
+<body>
+		<div class="container-fluid" id="site_home">
+			<div class="row">
+				<div class="col-md-12 bg_one">
+					<nav class="navbar navbar-default navbarCustom">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" id="logo" href="#">iO.Foundation</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    
+      <ul class="nav navbar-nav navbar-right">
+      <li><a href="#site_home">home</a></li>
+      <li><a href="#site_services">services</a></li>
+      <li><a href="#treatmentsnav">treatments</a></li>
+      <li><a href="#" data-target="#modalR" data-toggle="modal"><i class="fa fa-pencil-square-o" aria-hidden="true" ></i> book a meeting</a></li>
+      <li><a href="#" data-target="#modalQ" data-toggle="modal"><i class="fa fa-sign-in" aria-hidden="true"></i>
+ sign in</a></li>
+
+      <div class="modal fade" tabindex="-1" role="dialog" id="modalQ" data-keyboard="false" data-backdrop="static">
+  	<div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title signUpBtn">Get updated with our news and offers</h4>
+      </div>
+      <div class="modal-body">
+        <form class="form-horizontal">
+  <div class="form-group">
+    <label for="inputEmail3" class="col-sm-2 control-label"></label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputPassword3" class="col-sm-2 control-label"></label>
+    <div class="col-sm-10">
+      <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <div class="checkbox">
+        <label>
+          <input type="checkbox"> Remember me
+        </label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-primary">Sign in</button> <span>or you can</span>
+      <button type="submit" class="btn btn-default">Sign up</button>
+    </div>
+  </div>
+</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- modal -->
+<div class="modal fade" tabindex="-1" role="dialog" id="modalR">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header modal2">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Book a meeting with our doctors</h4>
+      </div>
+      <div class="modal-body">
+        <form class="form-horizontal">
+  <div class="form-group">
+    <label for="inputEmail3" class="col-sm-2 control-label"></label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputEmail3" class="col-sm-2 control-label"></label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="inputEmail3" placeholder="Name">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputEmail3" class="col-sm-2 control-label"></label>
+    <div class="col-sm-4">
+      <input type="email" class="form-control" id="inputEmail3" placeholder="Gender">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputEmail3" class="col-sm-2 control-label"></label>
+    <div class="col-sm-4">
+      <input type="email" class="form-control" id="inputEmail3" placeholder="Age">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputEmail3" class="col-sm-2 control-label"></label>
+    <div class="col-sm-4">
+      <input type="email" class="form-control" id="inputEmail3" placeholder="DD/MM/YYYY">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputEmail3" class="col-sm-2 control-label"></label>
+    <div class="col-sm-4">
+      <input type="email" class="form-control" id="inputEmail3" placeholder="Time">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-default">Book Now</button>
+    </div>
+  </div>
+</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<!--nav bar-->
+
+				<div class="firstSectionText">
+					<h1>See a better world</h1>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has </p>
+				</div>
+				
+
+				</div>
+			</div>
+		</div>
+		<!-- first secton ends -->
+
+
+		<!-- second section -->
+		<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12 secondSection">
+				<div>
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Scelera</a></li>
+    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Cornea</a></li>
+    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Retina</a></li>
+    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Lens</a></li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane  active" id="home">
+    <div class="row">
+    	<div class="col-md-4 glassesImg">
+    		<img class="img-responsive" src="image6.jpg" alt="image">
+    	</div>
+    	<div class="col-md-4 glassesImg">
+    		<img class="img-responsive" src="image9.jpg" alt="image">
+    	</div>
+    	<div class="col-md-4 glassesImg">
+    		<img class="img-responsive" src="image5.jpg" alt="image">
+    	</div>   
+    </div>
+    <div class="row">
+    	<div class="col-md-4 glassesImg">
+    		<img class="img-responsive" src="image4.jpg" alt="image">
+    	</div>
+    	<div class="col-md-4 glassesImg">
+    		<img class="img-responsive" src="image10.jpg" alt="image">
+    	</div>
+    	<div class="col-md-4 glassesImg">
+    		<img class="img-responsive" src="image17.jpg" alt="image">
+    	</div>
+    </div>
+    </div>
+    <div role="tabpanel" class="tab-pane fade" id="profile">
+    	<div class="row">
+    	<div class="col-md-4 glassesImg">
+    		<img class="img-responsive" src="image5.jpg" alt="image">
+    	</div>
+    	<div class="col-md-4 glassesImg">
+    		<img class="img-responsive" src="image6.jpg" alt="image">
+    	</div>
+    	<div class="col-md-4 glassesImg">
+    		<img class="img-responsive" src="image9.jpg" alt="image">
+    	</div>   
+    </div>
+    <div class="row">
+    	<div class="col-md-4 glassesImg">
+    		<img class="img-responsive" src="image17.jpg" alt="image">
+    	</div>
+    	<div class="col-md-4 glassesImg">
+    		<img class="img-responsive" src="image4.jpg" alt="image">
+    	</div>
+    	<div class="col-md-4 glassesImg">
+    		<img class="img-responsive" src="image10.jpg" alt="image">
+    	</div>
+    </div>
+    </div>
+    <div role="tabpanel" class="tab-pane fade" id="messages">
+    	<div class="row">
+    	<div class="col-md-4 glassesImg">
+    		<img class="img-responsive" src="image9.jpg" alt="image">
+    	</div>
+    	<div class="col-md-4 glassesImg">
+    		<img class="img-responsive" src="image5.jpg" alt="image">
+    	</div>
+    	<div class="col-md-4 glassesImg">
+    		<img class="img-responsive" src="image6.jpg" alt="image">
+    	</div>   
+    </div>
+    <div class="row">
+    	<div class="col-md-4 glassesImg">
+    		<img class="img-responsive" src="image10.jpg" alt="image">
+    	</div>
+    	<div class="col-md-4 glassesImg">
+    		<img class="img-responsive" src="image4.jpg" alt="image">
+    	</div>
+    	<div class="col-md-4 glassesImg">
+    		<img class="img-responsive" src="image17.jpg" alt="image">
+    	</div>
+    </div>
+   	</div>
+    <div role="tabpanel" class="tab-pane fade" id="settings">
+    	<div class="row">
+    	<div class="col-md-4 glassesImg">
+    		<img class="img-responsive" src="image5.jpg" alt="image">
+    	</div>
+    	<div class="col-md-4 glassesImg">
+    		<img class="img-responsive" src="image9.jpg" alt="image">
+    	</div>
+    	<div class="col-md-4 glassesImg">
+    		<img class="img-responsive" src="image6.jpg" alt="image">
+    	</div>   
+    </div>
+    <div class="row">
+    	<div class="col-md-4 glassesImg">
+    		<img class="img-responsive" src="image17.jpg" alt="image">
+    	</div>
+    	<div class="col-md-4 glassesImg">
+    		<img class="img-responsive" src="image10.jpg" alt="image">
+    	</div>
+    	<div class="col-md-4 glassesImg">
+    		<img class="img-responsive" src="image4.jpg" alt="image">
+    	</div>
+    </div>
+    </div>
+  </div>
+
+</div>
+			</div>
+		</div>
+    <!-- second section -->
+
+
+    <!-- third section -->
+    <div class="container-fluid" style="padding-right:0; padding-left:0;">
+      <div class="row" >
+        <div class="col-md-12 thirdSection">
+            <div class="thirdSectionText">
+            <h1>meet our team</h1>
+            <hr>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has </p>
+          </div>
+          <img class="img-responsive" src="doctors2.png" alt="image">
+        </div>
+      </div>
+    </div>
+    <!-- third section -->
+
+
+
+    <!-- fourth section -->
+    <div class="container-fluid" style="padding-right:0; padding-left:0;" id="site_services">
+      <div class="row">
+        <div class="col-md-12 thirdSection">
+            <div class="thirdSectionText">
+            <h1>our services</h1>
+            <hr>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- carousel -->
+    <div class="container-fluid" style="padding-right:0; padding-left:0;">
+      <div class="row">
+        <div class="col-md-12" style="background-color:#1E2740;">
+         <div class="row">
+           <div class="col-md-8 col-md-offset-2">
+              <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="slide1.jpg" alt="image">
+      <div class="carousel-caption">
+        <h1>Special Eye Care Unit</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has</p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="slide2.jpg" alt="image">
+      <div class="carousel-caption">
+        <h1>Advanced Technology</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has</p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="slide3.jpg" alt="image">
+      <div class="carousel-caption">
+        <h1>Surgery Facilities</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has</p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="slide4.jpg" alt="image">
+      <div class="carousel-caption">
+        <h1>24/7 Ambulance Service</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has</p>
+      </div>
+    </div>
+   
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+           </div>
+         </div>
+        </div>
+      </div>
+    </div>
+<!-- fourth section ends -->
+
+
+
+<!-- fifth section -->
+    <div class="container-fluid" style="padding-left:0; padding-right:0;" id="treatmentsnav">
+      <div class="row">
+        <div class="col-md-12 fifthSection">
+          <div class="thirdSectionText">
+            <h1>available treatments</h1>
+            <hr>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has </p>
+          </div> 
+
+          <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+          <div class="col-md-6 treatments">
+            <div class="panel panel-default panel_custom">
+    <div class="panel-heading" role="tab" id="headingOne">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Lasik and Cataract
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+      <div class="panel-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica
+      </div>
+    </div>
+  </div>
+          </div> 
+          <div class="col-md-6 treatments">
+             <div class="panel panel-default panel_custom">
+    <div class="panel-heading" role="tab" id="headingTwo">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Refractive LENS exchange
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+      <div class="panel-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica
+      </div>
+    </div>
+  </div>
+          </div> 
+          <div class="col-md-6 treatments">
+             <div class="panel panel-default panel_custom">
+    <div class="panel-heading" role="tab" id="headingThree">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Pediatric eye care
+        </a>
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+      <div class="panel-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica
+      </div>
+    </div>
+  </div>
+</div>
+            <div class="col-md-6 treatments">
+               <div class="panel panel-default panel_custom">
+    <div class="panel-heading" role="tab" id="headingFour">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          General and Specialised eye care
+        </a>
+      </h4>
+    </div>
+    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+      <div class="panel-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+          </div>  
+        </div>
+      </div>
+    </div>
+
+<!-- fifth section ends -->
+
+
+
+<!-- sixth section -->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12 sixthSection">
+            <div class="thirdSectionText">
+            <h1 style="color:white;">Read blogs</h1>
+          
+          </div>
+          
+          <div class="col-md-4 sixthContents">
+              <img class="img-responsive" src="blog1.png" alt="image">
+              <h1>Dr. William Osler</h1>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+              <button class="btn btn-default btn-md">read more</button>
+            </div>
+            <div class="col-md-4 sixthContents">
+              <img class="img-responsive" src="blog4.jpg" alt="image">
+              <h1>Dr. Ben karson</h1>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+              <button class="btn btn-default btn-md">read more</button>
+            </div>
+            <div class="col-md-4 sixthContents">
+              <img class="img-responsive" src="blog3.jpg" alt="image">
+              <h1>Dr. Jennifer Syme</h1>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+              <button class="btn btn-default btn-md">read more</button>
+            </div>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387145.8666616757!2d-74.25819524498877!3d40.70531098717965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbd!4v1493159762511" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <div class="col-md-12 footer">
+          <p>This site is designed and developed by Rafsan Al Musawver</p>
+        </div>
+      </div>
+
+</div>
+<!-- sixth section -->
+
+
+
+
+
+     
+
+
+
+
+
+
+
+
+<!-- Latest compiled and minified Jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
