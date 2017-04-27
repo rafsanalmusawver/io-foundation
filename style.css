@@ -54,6 +54,33 @@ nav ul:hover li:nth-child(4){text-decoration: none;}
 	color:rgba(0,0,0,.55); 
 	text-align:center;
 	}
+
+.bgModal{
+	background-color:#9BDBFB;
+	}
+
+.bgModal input{
+	background-color:#EDF9FF;
+	border-color:#EDF9FF;
+	color:white;
+	}
+
+.bgModal2 input{
+	background-color:#EDF9FF;
+	border-color:#EDF9FF;
+	color:white;
+	}
+
+.colorHeader{
+	background-color:#0FAEF9;
+	}
+.titleColor{
+	color:white;
+	}
+
+.headerColorM2{
+		background-color:#0FAEF9;
+	}
 /*--nav bar--*/
 
 
